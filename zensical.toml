@@ -71,7 +71,6 @@ Copyright &copy; 2025 imGazza
 # Section for configuring theme options
 # ----------------------------------------------------------------------------
 [project.theme]
-palette.primary = "deep purple"
 
 # change this to "classic" to use the traditional Material for MkDocs look.
 #variant = "classic"
@@ -261,12 +260,12 @@ features = [
 [[project.theme.palette]]
 scheme = "default"
 toggle.icon = "lucide/sun"
-toggle.name = "Switch to dark mode"
+toggle.name = "Tema scuro"
 
 [[project.theme.palette]]
 scheme = "slate"
 toggle.icon = "lucide/moon"
-toggle.name = "Switch to light mode"
+toggle.name = "Tema chiaro"
 
 # ----------------------------------------------------------------------------
 # In the "font" subsection you can configure the fonts used. By default, fonts
@@ -274,8 +273,8 @@ toggle.name = "Switch to light mode"
 # of suitably licensed fonts. There are options for a normal text font and for
 # a monospaced font used in code blocks.
 # ----------------------------------------------------------------------------
-#[project.theme.font]
-#text = "Inter"
+[project.theme.font]
+text = "Roboto"
 #code = "Jetbrains Mono"
 
 # ----------------------------------------------------------------------------
@@ -293,8 +292,8 @@ toggle.name = "Switch to light mode"
 # - https://zensical.org/docs/setup/logo-and-icons
 # - https://zensical.org/docs/authoring/icons-emojis/#search
 # ----------------------------------------------------------------------------
-#[project.theme.icon]
-#logo = "lucide/smile"
+[project.theme.icon]
+logo = "lucide/plane"
 #repo = "lucide/smile"
 
 # ----------------------------------------------------------------------------
