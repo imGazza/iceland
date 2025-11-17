@@ -1,4 +1,4 @@
-name: Documentation
+name: iceland deploy
 on:
   push:
     branches:
