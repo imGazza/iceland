@@ -12,7 +12,9 @@ La strada numero **1**, conosciuta come **Ring Road**, è la strada più esterna
 
 La **Ring Road** è completamente asfaltata e in buone condizioni.
 
-![Ring Road](../../img/iceland-ringroad.jpeg){ width=400 }
+<figure markdown="span">
+  ![F roads](../../assets/images/iceland-ringroad.jpeg){ width="300" }
+</figure>
 
 ## F-roads
 
@@ -22,5 +24,6 @@ Le **F-roads** sono strade che portano alle zone rurali dell'Islanda, verso le H
 
     Le F-roads sono soggette a chiusura nei mesi invernali (Settembre - Maggio). In questi periodi è impossibile quindi raggiungere zone più interne.
 
-
-![F-roads](../../img/iceland-froads.webp){ width=400 }
+<figure markdown="span">
+  ![F roads](../../assets/images/iceland_froads.jpg){ width="300" }
+</figure>

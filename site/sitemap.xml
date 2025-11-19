@@ -4,21 +4,33 @@
         <loc>https://imgazza.github.io/</loc>
       </url>
       <url>
-        <loc>https://imgazza.github.io/flight/</loc>
+        <loc>https://imgazza.github.io/general/</loc>
       </url>
       <url>
-        <loc>https://imgazza.github.io/accomodations/guesthouses/</loc>
+        <loc>https://imgazza.github.io/planning/</loc>
       </url>
       <url>
-        <loc>https://imgazza.github.io/accomodations/camping/</loc>
+        <loc>https://imgazza.github.io/budget/</loc>
       </url>
       <url>
-        <loc>https://imgazza.github.io/transport/roads/</loc>
+        <loc>https://imgazza.github.io/logistic/</loc>
       </url>
       <url>
-        <loc>https://imgazza.github.io/transport/auto/</loc>
+        <loc>https://imgazza.github.io/logistic/accomodations/</loc>
       </url>
       <url>
-        <loc>https://imgazza.github.io/test/</loc>
+        <loc>https://imgazza.github.io/logistic/accomodations/guesthouses/</loc>
+      </url>
+      <url>
+        <loc>https://imgazza.github.io/logistic/accomodations/camping/</loc>
+      </url>
+      <url>
+        <loc>https://imgazza.github.io/logistic/transport/flight/</loc>
+      </url>
+      <url>
+        <loc>https://imgazza.github.io/logistic/transport/roads/</loc>
+      </url>
+      <url>
+        <loc>https://imgazza.github.io/logistic/transport/auto/</loc>
       </url>
 </urlset>

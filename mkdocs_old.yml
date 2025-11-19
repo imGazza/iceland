@@ -1,0 +1,115 @@
+# Project information
+site_name: Iceland
+site_url: https://imgazza.github.io/
+site_description: >-
+  A guide for the upcoming trip I'm planning for Iceland
+
+# Repository
+repo_name: zensical/zensical
+repo_url: https://github.com/zensical/zensical
+edit_uri: https://github.com/zensical/docs/edit/master/docs/
+
+# Copyright
+copyright: Copyright &copy; 2025 imGazza
+
+# Configuration
+theme:
+  name: material
+  #custom_dir: overrides
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.footnote.tooltips
+    - content.tabs.link
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: lucide/sun-moon
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: lucide/sun
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: lucide/moon-star
+        name: Switch to system preference
+  #favicon: assets/zensical.png
+  #logo: assets/zensical.svg
+  icon:
+    tag:
+      default: lucide/hash
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+# Plugins
+plugins:
+  - search
+  - tags
+
+# Additional configuration
+# extra:
+#   homepage: https://zensical.org
+#   scope: /
+#   annotate:
+#     json: [.s2]
+#   status:
+#     new: Recently added
+#     deprecated: Deprecated
+#   social:
+#     - icon: fontawesome/brands/github
+#       link: https://github.com/zensical
+#     - icon: fontawesome/brands/discord
+#       link: https://discord.com/invite/hqXRNq9CjT
+#     - icon: fontawesome/brands/python
+#       link: https://pypi.org/project/zensical/
+#     - icon: fontawesome/brands/bluesky
+#       link: https://bsky.app/profile/zensical.org
+#     - icon: fontawesome/brands/mastodon
+#       link: https://fosstodon.org/@zensical
+#     - icon: fontawesome/brands/x-twitter
+#       link: https://x.com/zensical
+#   tags:
+#     default: default
+
+# Extensions
+markdown_extensions:  
+  - md_in_html
+
+# Page tree
+nav:
+  - Generale:
+    - index.md
+    - Generale: general.md
+    - Pianificazione: planning.md
+    - Budget: budget.md
+  - Logistica:
+    - Logistica: logistic.md
+    - Pernottamento:
+        - logistic/accomodations/index.md
+        - Guesthouses: logistic/accomodations/guesthouses.md
+        - Campeggio: logistic/accomodations/camping.md
+    - Trasporto:
+        - Volo: logistic/transport/flight.md
+        - Roads: logistic/transport/roads.md
+        - Auto: logistic/transport/auto.md
+#- Test: test.md

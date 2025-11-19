@@ -24,7 +24,7 @@ site_description = "A guide for the upcoming trip I'm planning for Iceland"
 # Read more: https://zensical.org/docs/setup/basics/#site_author
 site_author = "imGazza"
 
-# The site_url is the canonical URL for your site. When building online
+# The site_url is the canonical URL for your site. When building
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
 site_url = "https://imgazza.github.io/"
@@ -45,19 +45,26 @@ Copyright &copy; 2025 imGazza
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-   { "Generale" = "index.md" },
-   { "Logistica" = [
-    { "Volo" = "flight.md" },
-    { "Pernottamento" = [
-        { "Guesthouses" = "accomodations/guesthouses.md" },
-        { "Campeggio" = "accomodations/camping.md" }
+    { "Generale" = [
+        "index.md",
+        { "Generale" = "general.md" },
+        { "Pianificazione" = "planning.md" },
+        { "Budget" = "budget.md" }
     ]},
-    { "Trasporto" = [
-        { "Roads" = "transport/roads.md" },
-        { "Auto" = "transport/auto.md" },
+    { "Logistica" = [
+        { "Logistica" = "logistic.md" },
+        { "Pernottamento" = [
+            "logistic/accomodations/index.md",
+            { "Guesthouses" = "logistic/accomodations/guesthouses.md" },
+            { "Campeggio" = "logistic/accomodations/camping.md" }
+        ]},
+        { "Trasporto" = [
+            { "Volo" = "logistic/transport/flight.md" },
+            { "Roads" = "logistic/transport/roads.md" },
+            { "Auto" = "logistic/transport/auto.md" },
+        ]},
     ]},
-   ]},   
-   { "Test" = "test.md" }
+    #{ "Test" = "test.md" }
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
@@ -68,7 +75,7 @@ nav = [
 #
 # Read more: https://zensical.org/docs/customization/#additional-css
 #
-#extra_css = ["assets/stylesheets/extra.css"]
+extra_css = ["assets/stylesheets/extra.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
 # project to customize the behavior according to your needs.
@@ -270,11 +277,15 @@ features = [
 # ----------------------------------------------------------------------------
 [[project.theme.palette]]
 scheme = "default"
+primary = "indigo"
+accent = "indigo"
 toggle.icon = "lucide/sun"
 toggle.name = "Tema scuro"
 
 [[project.theme.palette]]
 scheme = "slate"
+primary = "indigo"
+accent = "orange"
 toggle.icon = "lucide/moon"
 toggle.name = "Tema chiaro"
 
@@ -314,4 +325,4 @@ logo = "lucide/plane"
 #icon = "fontawesome/brands/github"
 #link = "https://github.com/user/repo"
 
-
+[project.markdown_extensions.md_in_html]
