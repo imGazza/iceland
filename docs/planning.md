@@ -5,7 +5,7 @@ icon: lucide/compass
 # Pianificazione
 
 ???+ info 
-    Pianificazione al ==2025-11-19==.
+    Pianificazione al ==2025-11-19==. Soggetto a cambiamenti.
 
 === "Durata"
 

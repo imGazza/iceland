@@ -1,5 +1,5 @@
 ---
-icon: lucide/plane
+icon: lucide/layout-grid
 ---
 
 # Generale
