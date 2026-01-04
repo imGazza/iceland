@@ -23,3 +23,13 @@ Assolutamente sotto ai **==2.300==** euro a testa.
 ??? question "Perchè questa cifra?"
 
     Perchè su [SiVola](https://www.sivola.it/viaggi/islanda-ring-road) con questa cifra si ha tutto ciò che è specificato sopra, quindi ovviamente se organizzato in privato la cifra deve essere minore per avere senso.
+
+## Approfondimento
+
+Effettuata una stima di budget più precisa prendendo d'esempio alcuni dettagli, calcolando il totale della spesa e dividendo per numero di giorni. 
+
+Fattori:
+
+- 10 giorni
+- Noleggio camper 4x4 per 9 giorni
+
